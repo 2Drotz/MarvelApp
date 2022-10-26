@@ -8,10 +8,7 @@ import thor from '../../resources/img/thor.jpeg';
 import mjolnir from '../../resources/img/mjolnir.png';
 
 class RandomChar extends Component {
-    constructor(props) {
-        super(props);
-        this.updateChar();
-    }
+
 
     state = {
         char: {},
@@ -20,6 +17,16 @@ class RandomChar extends Component {
     }
 
     marvelService = new MarvelService();
+
+    componentDidMount() {
+        this.updateChar();
+        this.timerId = setInterval(this.updateChar, 5000);
+    }
+
+    componentWillUnmount() {
+        clearInterval(this.timerId);
+    }
+
 
     onError = () => {
         this.setState({
