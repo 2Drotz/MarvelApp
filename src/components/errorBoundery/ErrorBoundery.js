@@ -13,13 +13,17 @@ class ErrorBoundery extends Component {
          error: true
       })
 
-      this.render() {
-         if (this.state.error) {
-            return <ErrorMessage />
-         }
 
-         return this.props.children;
+   }
+   render() {
+      if (this.state.error) {
+         return <div>
+            <h2>Error</h2>
+            <ErrorMessage />
+         </div>
       }
+
+      return this.props.children;
    }
 }
 
