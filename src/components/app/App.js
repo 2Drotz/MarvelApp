@@ -45,4 +45,14 @@ class App extends Component {
     }
 }
 
+
+
+const DynamicGreating = (props) => {
+    return (
+        <div className={'mb-3 p-3 border border-' + props.color}>
+
+        </div>
+    )
+}
+
 export default App;
