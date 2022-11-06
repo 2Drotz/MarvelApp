@@ -78,8 +78,7 @@ class CharList extends Component {
       this.itemRefs[id].focus();
    }
 
-   // Этот метод создан для оптимизации, 
-   // чтобы не помещать такую конструкцию в метод render
+
    renderItems(arr) {
       const items = arr.map((item, i) => {
          let imgStyle = { 'objectFit': 'cover' };
