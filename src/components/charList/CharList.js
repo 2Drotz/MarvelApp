@@ -18,7 +18,7 @@ const CharList = (props) => {
    const [charEnded, setEnded] = useState(false);
 
 
-   const marvelService = new MarvelService();
+   const marvelService = useMarvelService();
 
 
    useEffect(() => {
