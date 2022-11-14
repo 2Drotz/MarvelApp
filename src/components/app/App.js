@@ -1,8 +1,7 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import AppHeader from "../appHeader/AppHeader";
-import ComicsPage from "../pages/ComicsPage";
-import MainPage from "../pages/MainPage";
+import { MainPage, ComicsPage } from "../pages";
 
 
 const App = () => {
