@@ -12,7 +12,7 @@ const CharList = (props) => {
 
    const [charList, setCharList] = useState([]);
    const [newItemLoading, setNewItemLoading] = useState(false);
-   const [offset, setOffset] = useState(210);
+   const [offset, setOffset] = useState(1239);
    const [charEnded, setEnded] = useState(false);
 
 
