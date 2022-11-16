@@ -11,9 +11,6 @@ const SingleComicPage = lazy(() => import('../pages/SingleComicPage'));
 
 
 const App = () => {
-
-
-
     return (
         <Router>
             <div className="app">
@@ -30,9 +27,7 @@ const App = () => {
                 </main>
             </div>
         </Router>
-
     )
-
 }
 
 export default App;

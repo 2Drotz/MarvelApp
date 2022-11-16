@@ -5,7 +5,7 @@ const Page404 = () => {
       <div>
          <ErrorMessage />
          <p>Error!</p>
-         <Link to='/'>Go back</Link>
+         <Link style={{ 'color': 'green' }} to='/'>Go back</Link>
       </div>
    )
 }
