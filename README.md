@@ -18,3 +18,7 @@
 
 ![image](https://github.com/2Drotz/MarvelApp/assets/50268595/f7156ada-cdd7-4266-81c0-f35943eecf5f)
 
+## Вы можете перейти на страницу комиксов
+![image](https://github.com/2Drotz/MarvelApp/assets/50268595/95ab1ab8-977d-4bc6-adfd-1e1a5f93e887)
+
+нажмите на комикс, чтобы увидеть информацибю о нем
